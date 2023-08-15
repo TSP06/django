@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>basic html page</title>
+{% load static %}
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+ <header>
+
+    <h1>Home Page Content</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="\page1">Page 1</a></li>
+      <li><a href="\page2">Page 2</a></li>
+    </ul>
+  </nav>
+  <main style="text-align:center;">
+    <p>This is the main content of the page.</p>
+    <button><a href="\page1">Go to Page 1</a></button>
+    <button><a href="\page2">Go to Page 2</a></button>
+  </main>
+</body>
+</html>
